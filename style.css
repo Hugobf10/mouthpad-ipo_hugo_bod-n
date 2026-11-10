@@ -1,0 +1,131 @@
+/* COLORES Y ESTILOS GENERALES */
+body {
+    font-family: Arial, sans-serif;
+    color: #202820;
+}
+
+a {
+    color: #245c35;
+}
+
+/* MENÚ SUPERIOR */
+.cabecera {
+    background-color: #142219;
+}
+
+.cabecera a {
+    color: white;
+    text-decoration: none;
+}
+
+.cabecera a:hover {
+    color: #c5f464;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #c5f464;
+}
+
+/* PORTADA */
+.portada {
+    background-color: #142219;
+    color: white;
+}
+
+.portada h1 span {
+    color: #c5f464;
+}
+
+.etiqueta {
+    color: #c5f464;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.etiqueta-oscura {
+    color: #497a36;
+}
+
+.btn-verde {
+    background-color: #c5f464;
+    color: #142219;
+    font-weight: bold;
+    padding: 12px 22px;
+}
+
+.btn-verde:hover {
+    background-color: #abdb49;
+}
+
+.marco-imagen {
+    background-color: #25362b;
+    border-radius: 15px;
+}
+
+.pie-foto {
+    color: #bac6bc;
+    font-size: 12px;
+}
+
+/* TÍTULOS Y CONTENIDO */
+.titulo-seccion {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.seccion p {
+    line-height: 1.7;
+}
+
+.dato,
+.tarjeta,
+.paso {
+    border: 1px solid #dce5d8;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.numero,
+.paso strong {
+    color: #598d29;
+    font-weight: bold;
+}
+
+.tarjeta h3 {
+    margin-top: 15px;
+}
+
+/* APARTADO DE IPO */
+.seccion-oscura {
+    background-color: #142219;
+    color: white;
+}
+
+.frase {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c5f464;
+}
+
+/* PIE DE PÁGINA */
+.pie-pagina {
+    background-color: #0d1710;
+    color: white;
+}
+
+.pie-pagina a {
+    color: #c5f464;
+}
+
+/* ADAPTACIÓN A PANTALLAS PEQUEÑAS */
+@media (max-width: 600px) {
+    .titulo-seccion {
+        font-size: 30px;
+    }
+}
